@@ -1,0 +1,43 @@
+
+            body{
+                background-color: rgba(31, 25, 25, 0.8);
+            }
+            h1{
+                color:rgb(255, 0, 0);
+                text-align: center;
+                
+            }
+            .animation{
+                width:40%;
+                height: 90vh;
+                left: 50%;
+                margin-top: 25%;
+                position:relative;
+                background-image:url(image/img1.jpeg);
+                background-size: 100% 100%;
+                transform:translate(-50%,-50%);
+                box-shadow: 2px 4px 10px 5px rgb(255, 255, 255);
+                animation:slider 20s infinite linear;
+            }
+            
+            @keyframes slider {
+                0%{background-image: url(image/h-b1.jpg);}
+
+                20%{background-image: url(image/img2.jpeg);}
+
+                40%{background-image: url(image/img3.jpeg);}
+
+                60%{background-image: url(image/img4.jpeg);}
+
+                80%{background-image: url(image/h-b2.jpg);}
+            }
+            .move{
+                color:rgb(255, 255, 255);
+                border: 10px;
+                border-color: black;
+                background-color: rgb(140, 0, 255);
+            }
+
+            .audio{
+                margin-top: 1%;
+            }
